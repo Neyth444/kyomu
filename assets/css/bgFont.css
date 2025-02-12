@@ -1,0 +1,14 @@
+/* Background image */
+@keyframes spaceMove {
+    from { background-position: 0 0; }
+    to { background-position: 1000px 1000px; }
+}
+
+body {
+    background: url('imgCSS/pet1.jpg') no-repeat top left fixed;
+    background-size:auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.945);
+    animation: spaceMove 10s linear infinite; /* Vitesse de l'animation */
+
+}
