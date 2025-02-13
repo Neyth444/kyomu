@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arthur Boda</title>
+    <title>Neyth</title>
 
-<!-- IMPLEMENTATION CSS PART -->
+    <!-- IMPLEMENTATION CSS PART -->
     <link rel="stylesheet" href="assets/css/textFont.css">
     <link rel="stylesheet" href="assets/css/navFont.css">
     <link rel="stylesheet" href="assets/css/bgFont.css">
+    <link rel="stylesheet" href="assets/css/bodyFont.css">
+    <link rel="stylesheet" href="assets/css/projectFont.css">
+    <link rel="stylesheet" href="assets/css/skillsFont.css">
+    <link rel="stylesheet" href="assets/css/spacerFont.css">
 
-<!--Font Google API -->
+    <!-- IMPLEMENTATION JS -->
+    <script src="assets/js/carrousel.js"></script>
+    <script src="assets/js/scroller.js"></script>
+
+
+    <!-- Font Google API -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-
-
 <body>
+
     <header>
         <nav>
             <div class="nav-left">
@@ -38,33 +46,145 @@
                     <img src="img/discord.png" alt="Discord">
                 </a>
             </div>
-       
         </nav>
     </header>
-    
+
     <section id="hero">
-        <h2>Exploring the Universe of Code</h2>
-        <p>Developer | Creative Thinker</p>
+        
+        <p>This portfolio is hidden, not for any particular reason, but simply because I want it to be. I will include all my open-source projects here so that you can check them out, edit them, or simply try them if you wish.</p>
+        <p>Enjoy</p>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi! I'm a developer passionate about building futuristic, space-themed web experiences.</p>
+        <p>I'm Neyth.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Galactic Portfolio</h3>
-            <p>A portfolio project with a cosmic touch.</p>
+    <section id="skills">
+        <h2>Skills</h2>
+        
+    
+        <div class="skills-container">
+            <!-- Python -->
+            <div class="skill">
+                <img src="assets/css/imgCSS/pythonlogo.png" alt="Python Logo">
+                <div class="skill-info">
+                    <h3>Python</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;" data-progress="85%"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Java -->
+            <div class="skill">
+                <img src="assets/css/imgCSS/javalogo.png" alt="Java Logo">
+                <div class="skill-info">
+                    <h3>Java</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 40%;" data-progress="75%"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- C# -->
+            <div class="skill">
+                <img src="assets/css/imgCSS/chsarplogo.png" alt="C# Logo">
+                <div class="skill-info">
+                    <h3>C#</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 25%;" data-progress="70%"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- HTML -->
+            <div class="skill">
+                <img src="assets/css/imgCSS/htmllogo.png" alt="HTML Logo">
+                <div class="skill-info">
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;" data-progress="90%"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- CSS -->
+            <div class="skill">
+                <img src="assets/css/imgCSS/csslogo.png" alt="CSS Logo">
+                <div class="skill-info">
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;" data-progress="80%"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- JavaScript -->
+            <div class="skill">
+                <img src="assets/css/imgCSS/javascriptlogo.png" alt="JavaScript Logo">
+                <div class="skill-info">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 30%;" data-progress="70%"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    
+    <div class="space3"></div>
+    
+    <div class="fixed-background">
+        <div class="space4"></div>
+    </div>
+    <section id="projects">
+        <div class="work">
+            <h2>Select a project</h2>
+            <div class="work--lockup">
+                <!-- Flèche gauche -->
+                <div class="slider--prev">&#9665;</div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Reach out and let's create something amazing!</p>
+                <!-- SLIDER PRINCIPAL -->
+                <ul class="slider">
+                    <li class="slider--item slider--item-center">
+                        <a href="neith.html">
+                            <div class="slider--item-image">
+                                <img src="img/LOGO1.jpg" alt="Projet 1">
+                            </div>
+                            <p class="slider--item-title">Tensen</p>
+                   
+                        </a>
+                    </li>
+                    <li class="slider--item slider--item-right">
+                        <a href="goku.html">
+                            <div class="slider--item-image">
+                                <img src="img/LOGO1.jpg" alt="Projet 2">
+                            </div>
+                            <p class="slider--item-title">Osher</p>
+                        </a>
+                    </li>
+                    <li class="slider--item slider--item-left">
+                        <a href="fc.html">
+                            <div class="slider--item-image">
+                                <img src="img/LOGO1.jpg" alt="Projet 3">
+                            </div>
+                            <p class="slider--item-title">Kira</p>
+
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Flèche droite -->
+                <div class="slider--next">&#9655;</div>
+            </div>
+        </div>
     </section>
+   
+    <div class="fixed-background2">
+        <div class="space4"></div>
+    </div>  
 
-    <script src="script.js"></script>
+
 </body>
 </html>

@@ -7,16 +7,16 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
-    height: 50px; /* Réduit la hauteur */
+    height: 60px; /* Réduit la hauteur */
     padding: 5px 30px; /* Moins d'espace intérieur */
-    background: rgba(0, 0, 0, 0.295); /* Noir transparent */
+    background: rgba(0, 0, 0, 0.042); /* Noir transparent */
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
 
 /* Ajout d'un padding en haut du body pour éviter que le contenu ne soit caché */
 body {
-    padding-top: 60px; /* Décale tout le contenu en bas pour éviter qu'il soit caché */
+    padding-top: 90px; /* Décale tout le contenu en bas pour éviter qu'il soit caché */
 }
 
 /* Logo et texte à gauche */

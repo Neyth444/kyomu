@@ -1,14 +1,35 @@
-/* Background image */
-@keyframes spaceMove {
-    from { background-position: 0 0; }
-    to { background-position: 1000px 1000px; }
+body {
+    background:
+    url(imgCSS/omori.gif) no-repeat center top;
+    background-size: contain;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
 }
 
-body {
-    background: url('imgCSS/pet1.jpg') no-repeat top left fixed;
-    background-size:auto;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.945);
-    animation: spaceMove 10s linear infinite; /* Vitesse de l'animation */
 
+.fixed-background {
+    background: 
+    url(imgCSS/omori2.gif) no-repeat center center;
+    background-size: contain; /* Pour s'assurer que l'image prend toute la page */
+    background-attachment: fixed; /* Image fixe */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
+}
+
+.fixed-background2 {
+    background: 
+    url(imgCSS/omori3.gif) no-repeat center center;
+    background-size: contain; /* Pour s'assurer que l'image prend toute la page */
+    background-attachment: fixed; /* Image fixe */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
 }
