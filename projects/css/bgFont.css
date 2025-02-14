@@ -1,0 +1,35 @@
+body {
+    background:
+    url(imgCSS/omori4.gif) no-repeat center top;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
+}
+
+
+.fixed-background {
+    background: 
+    url(imgCSS/omori2.gif) no-repeat center center;
+    background-size: contain; /* Pour s'assurer que l'image prend toute la page */
+    background-attachment: fixed; /* Image fixe */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
+}
+
+.fixed-background2 {
+    background: 
+    url(imgCSS/omori3.gif) no-repeat center center;
+    background-size: contain; /* Pour s'assurer que l'image prend toute la page */
+    background-attachment: fixed; /* Image fixe */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
+}

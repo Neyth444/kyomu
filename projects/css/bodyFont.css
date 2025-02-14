@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+
+body::before{
+    content :"";
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to top, rgba(0,0,0,0) 50%, black 100%);
+    pointer-events: none;
+
+}
+/* Ajout d'un effet de transition fluide avec un pseudo-élément */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 100%);
+    pointer-events: none; /* Permet d'éviter que ça bloque les interactions */
+}
