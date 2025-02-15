@@ -31,9 +31,10 @@ body {
 }
 
 .nav-left span {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Courier New', monospace;
     font-size: 16px; /* Réduit la taille du texte */
     color: white;
+    margin-right: 50px;
 }
 
 /* Liens au centre */
@@ -45,14 +46,14 @@ body {
 
 .nav-center li a {
     text-decoration: none;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Courier New', monospace;
     color: white;
     font-size: 14px; /* Texte plus petit */
     transition: color 0.3s;
 }
 
 .nav-center li a:hover {
-    color: #00ccff;
+    color: #003481;
 }
 
 /* Icônes à droite */
