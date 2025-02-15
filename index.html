@@ -17,6 +17,7 @@
     <!-- IMPLEMENTATION JS -->
     <script src="assets/js/carrousel.js"></script>
     <script src="assets/js/scroller.js"></script>
+    <script src="assets/js/audio.js"></script>
 
 
     <!-- Font Google API -->
@@ -37,6 +38,7 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a><button id="toggle-music">🎵 </button></a></li>
             </ul>
             <div class="nav-right">
                 <a href="https://github.com/neyth444" target="_blank">
@@ -214,7 +216,11 @@
     <div class="fixed-background2">
         <div class="space4"></div>
     </div>  
-
+    <audio id="background-music" autoplay loop>
+        <source src="assets/audiosrc/fallendown.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'audio HTML5.
+    </audio>
+    
 
 </body>
 </html>
