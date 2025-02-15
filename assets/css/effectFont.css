@@ -1,1 +1,17 @@
+#toggle-music {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(117, 1, 1, 0);
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
 
+#toggle-music:hover {
+    background: rgba(0, 0, 0, 0);
+}
