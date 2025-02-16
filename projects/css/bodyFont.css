@@ -36,3 +36,53 @@ body::after {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 100%);
     pointer-events: none; /* Permet d'éviter que ça bloque les interactions */
 }
+
+
+/* Empêche les éléments de dépasser l'écran */
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    .about-container, .projects-container, .contact-container {
+        flex-direction: column; /* Passe en colonne sur mobile */
+        align-items: center; /* Centre les éléments */
+        text-align: center; /* Texte centré */
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Cache la nav sur mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #111;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex; /* Affiche le menu quand actif */
+    }
+
+    .menu-burger {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+}
+
