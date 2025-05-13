@@ -86,3 +86,20 @@ body::after {
     }
 }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  section {
+    padding: 0 10px;
+  }
+}

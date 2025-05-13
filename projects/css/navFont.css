@@ -73,3 +73,38 @@ body {
     filter: brightness(1.5);
 }
 
+@media (max-width: 768px) {
+  .nav-center {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 1rem 0;
+  }
+
+  .nav-center.active {
+    display: flex;
+  }
+
+  .menu-burger {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+  }
+
+  .nav-right {
+    padding: 10px;
+  }
+
+  .logo {
+    height: 24px;
+  }
+
+  .nav-left span {
+    font-size: 14px;
+  }
+}

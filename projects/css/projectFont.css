@@ -202,3 +202,23 @@
         display: none;
     }
 }
+@media (max-width: 480px) {
+  .slider {
+    padding: 20px;
+  }
+
+  .slider--item-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .slider--item-center .slider--item-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .slider--prev,
+  .slider--next {
+    display: none;
+  }
+}

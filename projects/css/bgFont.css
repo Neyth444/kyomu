@@ -33,3 +33,15 @@ body {
     text-shadow: 2px 2px 0 black;
     position: relative;
 }
+
+.fixed-background,
+.fixed-background2 {
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .fixed-background,
+  .fixed-background2 {
+    background-position: center top;
+  }
+}

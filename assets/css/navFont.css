@@ -73,3 +73,16 @@ body {
     filter: brightness(1.5);
 }
 
+.menu-burger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-center {
+    display: none;
+  }
+
+  .menu-burger {
+    display: block;
+  }
+}

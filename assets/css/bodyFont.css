@@ -86,3 +86,23 @@ body::after {
     }
 }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  p, li {
+    font-size: 0.95rem;
+  }
+
+  .nav-right {
+    padding: 20px;
+    gap: 5px;
+  }
+
+  .logo {
+    height: 24px;
+  }
+}

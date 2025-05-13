@@ -56,3 +56,17 @@
         grid-template-columns: 1fr; /* 1 colonne sur mobile */
     }
 }
+@media (max-width: 600px) {
+  .skill img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skill {
+    gap: 10px;
+  }
+
+  .skills-container {
+    padding: 0 10px;
+  }
+}

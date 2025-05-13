@@ -42,3 +42,16 @@
         padding: 10px;
     }
 }
+@media (max-width: 480px) {
+  .project-table td,
+  .project-table th {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .project-table tr {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
